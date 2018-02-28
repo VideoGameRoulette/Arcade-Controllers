@@ -1,0 +1,223 @@
+/*BEGIN Fight Stick Controller Styling*/
+.controller.custom {
+    background: url(https://raw.githubusercontent.com/VideoGameRoulette/Arcade-Controllers/master/DBFZ/base.png) center no-repeat;
+    height: 534px;
+    width: 1122px;
+}
+
+.custom.disconnected {
+    background: url(stick-assets/disconnected.svgz) no-repeat;
+}
+
+.custom.disconnected div {
+    display: none;
+}
+
+.custom .triggers {
+    width: 326px;
+    height: 198px;
+    position: absolute;
+    right: 0px;
+    bottom: 66px;
+}
+
+.custom .trigger-button {
+    width: 123px;
+    height: 123px;
+    background: transparent;
+    border-radius: 100%;
+    opacity: 1;
+    display: block;
+}
+
+.custom .trigger-button.pressed {
+    transform: translateY(5px);
+    background: rgba(255,255,255,0.4);
+}
+
+.custom .trigger-button.left {
+    position: absolute;
+    float: right;
+    bottom: 4px;
+    right: 42px;
+}
+
+.custom .trigger-button.right {
+    float: left;
+}
+
+.custom .bumpers {
+    width: 295px;
+    height: 198px;
+    position: absolute;
+    right: 0px;
+    top: 88px;
+}
+
+.custom .bumper {
+    width: 123px;
+    height: 123px;
+    background: transparent;
+    border-radius: 100%;
+    opacity: 1;
+    display: block;
+}
+
+.custom .bumper.pressed {
+    transform: translateY(5px);
+    background: rgba(255,255,255,0.4);
+}
+
+.custom .bumper.left {
+    position: absolute;
+    float: right;
+    bottom: 4px;
+    right: 11px;
+}
+
+.custom .bumper.right {
+    float: left;
+}
+
+.custom .quadrant {
+    position: absolute;
+    font-family: "Press Start 2P";
+    font-size: 28px;
+    font-weight: normal;
+    top: 20px;
+    left: 236px;
+    color: white;
+}
+
+.custom .p0:after {
+    content: "P1";
+}
+
+.custom .p1:after {
+    content: "P2";
+}
+
+.custom .p2:after {
+    content: "P3";
+}
+
+.custom .p3:after {
+    content: "P4";
+}
+
+.custom .arrows {
+    position: absolute;
+    width: 70px;
+    height: 217px;
+    top: 53px;
+    left: 49px;
+}
+
+.custom .back, .custom .start {
+    width: 70px;
+    height: 70px;
+    background: transparent;
+    display: block;
+    border-radius: 100%;
+}
+
+.custom .back {
+    float: left;
+}
+
+.custom .start {
+    position: absolute;
+    bottom: 4px;
+    left: -1px;
+}
+
+.custom .back.pressed, .custom .start.pressed {
+    transform: translateY(5px);
+    -webkit-filter: invert(1);
+}
+
+.custom .abxy {
+    position: absolute;
+    width: 310px;
+    height: 370px;
+    bottom: 103px;
+    left: 472px;
+}
+
+.custom .button {
+    width: 123px;
+    height: 123px;
+    background: transparent;
+    border-radius: 100%;
+    opacity: 1;
+    display: block;
+    position: absolute;
+}
+
+.custom .button.pressed {
+    transform: translateY(3px);
+    background: rgba(255,255,255,0.4);
+}
+
+.custom .a {
+    bottom: 0px;
+    left: 0px;
+}
+
+.custom .b {
+    bottom: 66px;
+    right: 31px;
+}
+
+.custom .x {
+    top: 66px;
+    left: 33px
+}
+
+.custom .y {
+    right: 0px;
+    top: 0px;
+}
+
+.custom .fstick {
+    position: absolute;
+    width: 221px;
+    height: 221px;
+    top: 198px;
+    left: 194px;
+    background: url(https://raw.githubusercontent.com/VideoGameRoulette/Arcade-Controllers/master/DBFZ/DBFZ.png)
+}
+
+.custom .fstick.up {
+    background-position-x: -1762px;
+}
+
+.custom .fstick.down {
+    background-position-x: -882px;
+}
+
+.custom .fstick.left {
+    background-position-x: -1322px;
+}
+
+.custom .fstick.right {
+    background-position-x: -442px;
+}
+
+.custom .fstick.up.right {
+    background-position-x: -222px;
+}
+
+.custom .fstick.up.left {
+    background-position-x: -1542px;
+}
+
+.custom .fstick.down.right {
+    background-position-x: -662px;
+}
+
+.custom .fstick.down.left {
+    background-position-x: -1102px;
+}
+
+/*END Fight Stick Controller Styling*/
